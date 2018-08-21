@@ -2716,6 +2716,35 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Pivotal.Discovery.ClientCore/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.0",
+          "Pivotal.Discovery.EurekaBase": "2.0.0",
+          "Steeltoe.CloudFoundry.ConnectorBase": "2.0.0",
+          "Steeltoe.Common": "2.0.0",
+          "Steeltoe.Discovery.EurekaBase": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Pivotal.Discovery.ClientCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pivotal.Discovery.ClientCore.dll": {}
+        }
+      },
+      "Pivotal.Discovery.EurekaBase/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Steeltoe.CloudFoundry.ConnectorBase": "2.0.0",
+          "Steeltoe.Discovery.EurekaBase": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Pivotal.Discovery.EurekaBase.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pivotal.Discovery.EurekaBase.dll": {}
+        }
+      },
       "Pivotal.Extensions.Configuration.ConfigServerBase/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -3117,6 +3146,21 @@
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
         }
       },
+      "Steeltoe.CloudFoundry.ConnectorBase/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "2.0.0",
+          "Microsoft.Extensions.Options": "2.0.0",
+          "Steeltoe.Extensions.Configuration.CloudFoundryBase": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Steeltoe.CloudFoundry.ConnectorBase.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.CloudFoundry.ConnectorBase.dll": {}
+        }
+      },
       "Steeltoe.Common/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -3143,6 +3187,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/Steeltoe.Common.Http.dll": {}
+        }
+      },
+      "Steeltoe.Discovery.EurekaBase/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.0",
+          "Newtonsoft.Json": "10.0.3",
+          "Steeltoe.Common.Http": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Steeltoe.Discovery.EurekaBase.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Discovery.EurekaBase.dll": {}
         }
       },
       "Steeltoe.Extensions.Configuration.CloudFoundryBase/2.0.0": {
@@ -7786,6 +7845,26 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+    "Pivotal.Discovery.ClientCore/2.0.0": {
+      "sha512": "JhLYLdBgp6/gZaHstQEnWNU3TE/CmTfLgI+cPpER5tgIcMtK1hyNdPo+Pw1d3Fj3Z3LHbFa4t/TV+ohEc8Ys/Q==",
+      "type": "package",
+      "path": "pivotal.discovery.clientcore/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Pivotal.Discovery.ClientCore.dll",
+        "pivotal.discovery.clientcore.2.0.0.nupkg.sha512",
+        "pivotal.discovery.clientcore.nuspec"
+      ]
+    },
+    "Pivotal.Discovery.EurekaBase/2.0.0": {
+      "sha512": "2x3NgQHnvHE/U2Nvl2T5Cyv0CJhV1I+HH/mIZ8v1qSETHNoSZZPCwPD0WCemq91+FArD7dlMv6bLA2RAJYOmYw==",
+      "type": "package",
+      "path": "pivotal.discovery.eurekabase/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Pivotal.Discovery.EurekaBase.dll",
+        "pivotal.discovery.eurekabase.2.0.0.nupkg.sha512",
+        "pivotal.discovery.eurekabase.nuspec"
+      ]
+    },
     "Pivotal.Extensions.Configuration.ConfigServerBase/2.0.0": {
       "sha512": "WXmI5SbfSt/gqAlN0KcjoGR4nHmCP2WSdoURyK3DKUuI3I8eug4Y2Ov8FCruorQjCHzmz18tms20oayRXZprDA==",
       "type": "package",
@@ -8222,6 +8301,17 @@
         "stackexchange.redis.strongname.nuspec"
       ]
     },
+    "Steeltoe.CloudFoundry.ConnectorBase/2.0.0": {
+      "sha512": "Rzp/T0yIo8qU+6++3dhr9HzP95mOA/ARBxVdePM0s9zF486Oj7QMsQUaJQ06B2qPwK65MVL2g5za2ljXCmzM/g==",
+      "type": "package",
+      "path": "steeltoe.cloudfoundry.connectorbase/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Steeltoe.CloudFoundry.ConnectorBase.dll",
+        "lib/netstandard2.0/Steeltoe.CloudFoundry.ConnectorBase.xml",
+        "steeltoe.cloudfoundry.connectorbase.2.0.0.nupkg.sha512",
+        "steeltoe.cloudfoundry.connectorbase.nuspec"
+      ]
+    },
     "Steeltoe.Common/2.0.0": {
       "sha512": "09ArWhrNRzXqsi8LDH8FRNYmAjv/QQ8g5fgIU34OE7j5iz07cVg1jUUQYaYwgxDvWsYBE2GiI2fSk1Ic1/fazg==",
       "type": "package",
@@ -8242,6 +8332,16 @@
         "lib/netstandard2.0/Steeltoe.Common.Http.xml",
         "steeltoe.common.http.2.0.0.nupkg.sha512",
         "steeltoe.common.http.nuspec"
+      ]
+    },
+    "Steeltoe.Discovery.EurekaBase/2.0.0": {
+      "sha512": "mOUVdTyaSVwLKFjm47HfBpOafMFoXhH8OjO52z2J+KwA7UCgHvYgY+U6XBzPgCy6obDcTTqR6txqUhXiev7kLw==",
+      "type": "package",
+      "path": "steeltoe.discovery.eurekabase/2.0.0",
+      "files": [
+        "lib/netstandard2.0/Steeltoe.Discovery.EurekaBase.dll",
+        "steeltoe.discovery.eurekabase.2.0.0.nupkg.sha512",
+        "steeltoe.discovery.eurekabase.nuspec"
       ]
     },
     "Steeltoe.Extensions.Configuration.CloudFoundryBase/2.0.0": {
@@ -12823,6 +12923,7 @@
       "Microsoft.Extensions.Configuration >= 2.1.1",
       "Microsoft.Extensions.Options >= 2.1.1",
       "Microsoft.NETCore.App >= 2.0.0",
+      "Pivotal.Discovery.ClientCore >= 2.0.0",
       "Pivotal.Extensions.Configuration.ConfigServerCore >= 2.0.0"
     ]
   },
@@ -12833,11 +12934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Dev\\Pivotal\\bootcamp-webapi\\bootcamp-webapi.csproj",
+      "projectUniqueName": "C:\\Dev\\Pivotal\\bootcamp-webapi\\bootcamp-webapi.csproj",
       "projectName": "bootcamp-webapi",
-      "projectPath": "c:\\Dev\\Pivotal\\bootcamp-webapi\\bootcamp-webapi.csproj",
+      "projectPath": "C:\\Dev\\Pivotal\\bootcamp-webapi\\bootcamp-webapi.csproj",
       "packagesPath": "C:\\Users\\Federico.Rodriguez\\.nuget\\packages\\",
-      "outputPath": "c:\\Dev\\Pivotal\\bootcamp-webapi\\obj\\",
+      "outputPath": "C:\\Dev\\Pivotal\\bootcamp-webapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12883,6 +12984,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "Pivotal.Discovery.ClientCore": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           },
           "Pivotal.Extensions.Configuration.ConfigServerCore": {
             "target": "Package",

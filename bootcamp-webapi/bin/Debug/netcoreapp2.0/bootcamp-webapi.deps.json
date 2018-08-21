@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "c6d5c2137307b676a89297912b976c1c7f52517d"
+    "signature": "8543ecf807190859928631c2dd5d680cd1167d31"
   },
   "compilationOptions": {
     "defines": [
@@ -27,6 +27,7 @@
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Options": "2.1.1",
           "Microsoft.NETCore.App": "2.0.0",
+          "Pivotal.Discovery.ClientCore": "2.0.0",
           "Pivotal.Extensions.Configuration.ConfigServerCore": "2.0.0"
         },
         "runtime": {
@@ -2349,6 +2350,33 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Pivotal.Discovery.ClientCore/2.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.0.3",
+          "Pivotal.Discovery.EurekaBase": "2.0.0",
+          "Steeltoe.CloudFoundry.ConnectorBase": "2.0.0",
+          "Steeltoe.Common": "2.0.0",
+          "Steeltoe.Discovery.EurekaBase": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pivotal.Discovery.ClientCore.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/Pivotal.Discovery.ClientCore.dll": {}
+        }
+      },
+      "Pivotal.Discovery.EurekaBase/2.0.0": {
+        "dependencies": {
+          "Steeltoe.CloudFoundry.ConnectorBase": "2.0.0",
+          "Steeltoe.Discovery.EurekaBase": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pivotal.Discovery.EurekaBase.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/Pivotal.Discovery.EurekaBase.dll": {}
+        }
+      },
       "Pivotal.Extensions.Configuration.ConfigServerBase/2.0.0": {
         "dependencies": {
           "Steeltoe.Common": "2.0.0",
@@ -2665,6 +2693,20 @@
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
         }
       },
+      "Steeltoe.CloudFoundry.ConnectorBase/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Configuration.Binder": "2.0.2",
+          "Microsoft.Extensions.Options": "2.1.1",
+          "Steeltoe.Extensions.Configuration.CloudFoundryBase": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.CloudFoundry.ConnectorBase.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/Steeltoe.CloudFoundry.ConnectorBase.dll": {}
+        }
+      },
       "Steeltoe.Common/2.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "2.0.2",
@@ -2689,6 +2731,20 @@
         },
         "compile": {
           "lib/netstandard2.0/Steeltoe.Common.Http.dll": {}
+        }
+      },
+      "Steeltoe.Discovery.EurekaBase/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "2.0.2",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "2.0.2",
+          "Newtonsoft.Json": "10.0.3",
+          "Steeltoe.Common.Http": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Discovery.EurekaBase.dll": {}
+        },
+        "compile": {
+          "lib/netstandard2.0/Steeltoe.Discovery.EurekaBase.dll": {}
         }
       },
       "Steeltoe.Extensions.Configuration.CloudFoundryBase/2.0.0": {
@@ -5215,6 +5271,20 @@
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
     },
+    "Pivotal.Discovery.ClientCore/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JhLYLdBgp6/gZaHstQEnWNU3TE/CmTfLgI+cPpER5tgIcMtK1hyNdPo+Pw1d3Fj3Z3LHbFa4t/TV+ohEc8Ys/Q==",
+      "path": "pivotal.discovery.clientcore/2.0.0",
+      "hashPath": "pivotal.discovery.clientcore.2.0.0.nupkg.sha512"
+    },
+    "Pivotal.Discovery.EurekaBase/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2x3NgQHnvHE/U2Nvl2T5Cyv0CJhV1I+HH/mIZ8v1qSETHNoSZZPCwPD0WCemq91+FArD7dlMv6bLA2RAJYOmYw==",
+      "path": "pivotal.discovery.eurekabase/2.0.0",
+      "hashPath": "pivotal.discovery.eurekabase.2.0.0.nupkg.sha512"
+    },
     "Pivotal.Extensions.Configuration.ConfigServerBase/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -5432,6 +5502,13 @@
       "path": "stackexchange.redis.strongname/1.2.4",
       "hashPath": "stackexchange.redis.strongname.1.2.4.nupkg.sha512"
     },
+    "Steeltoe.CloudFoundry.ConnectorBase/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rzp/T0yIo8qU+6++3dhr9HzP95mOA/ARBxVdePM0s9zF486Oj7QMsQUaJQ06B2qPwK65MVL2g5za2ljXCmzM/g==",
+      "path": "steeltoe.cloudfoundry.connectorbase/2.0.0",
+      "hashPath": "steeltoe.cloudfoundry.connectorbase.2.0.0.nupkg.sha512"
+    },
     "Steeltoe.Common/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -5445,6 +5522,13 @@
       "sha512": "sha512-BZkDweYwU3Vy37kymLtK8+8RaTrJHB67e2jTdrSySJUgcTDMN5uI0eoYAkiy9lbeFO0QUsKpiZ+FVVdZ+6t+TA==",
       "path": "steeltoe.common.http/2.0.0",
       "hashPath": "steeltoe.common.http.2.0.0.nupkg.sha512"
+    },
+    "Steeltoe.Discovery.EurekaBase/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mOUVdTyaSVwLKFjm47HfBpOafMFoXhH8OjO52z2J+KwA7UCgHvYgY+U6XBzPgCy6obDcTTqR6txqUhXiev7kLw==",
+      "path": "steeltoe.discovery.eurekabase/2.0.0",
+      "hashPath": "steeltoe.discovery.eurekabase.2.0.0.nupkg.sha512"
     },
     "Steeltoe.Extensions.Configuration.CloudFoundryBase/2.0.0": {
       "type": "package",
