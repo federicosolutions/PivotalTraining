@@ -15,7 +15,7 @@ public class HomeController: Controller {
     public IActionResult Index() {
 
         var client = GetClient();
-        var result = client.GetStringAsync("http://core-cf-microservice-federicor.apps.workshops.get.pivotal.io/api/products").Result;
+        var result = client.GetStringAsync("http://core-cf-microservice-federicor/api/products").Result;
 
         ViewData["products"] = result;
         return View();
