@@ -1,7 +1,8 @@
 ---
 applications:
-- name: core-cf-microservice-federicor
-instances: 1
-memory: 256M
-services:
-- "spring"
+- name: core-cf-microservice-ui-federicor
+  instances: 1
+  memory: 256M
+  # determines which environment to pull configs from
+  services:
+    - "spring"
