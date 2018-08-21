@@ -1,7 +1,7 @@
 ---
 applications:
-- name: <enter name here>
+- name: core-cf-microservice-federicor
 instances: 1
 memory: 256M
 services:
-- <enter registry instance name here>
+- "spring"
