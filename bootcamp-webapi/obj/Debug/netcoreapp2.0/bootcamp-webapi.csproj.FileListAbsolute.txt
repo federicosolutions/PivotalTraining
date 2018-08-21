@@ -1,0 +1,11 @@
+C:\Dev\Pivotal\bootcamp-webapi\bin\Debug\netcoreapp2.0\bootcamp-webapi.deps.json
+C:\Dev\Pivotal\bootcamp-webapi\bin\Debug\netcoreapp2.0\bootcamp-webapi.runtimeconfig.json
+C:\Dev\Pivotal\bootcamp-webapi\bin\Debug\netcoreapp2.0\bootcamp-webapi.runtimeconfig.dev.json
+C:\Dev\Pivotal\bootcamp-webapi\bin\Debug\netcoreapp2.0\bootcamp-webapi.dll
+C:\Dev\Pivotal\bootcamp-webapi\bin\Debug\netcoreapp2.0\bootcamp-webapi.pdb
+C:\Dev\Pivotal\bootcamp-webapi\obj\Debug\netcoreapp2.0\bootcamp-webapi.csprojAssemblyReference.cache
+C:\Dev\Pivotal\bootcamp-webapi\obj\Debug\netcoreapp2.0\bootcamp-webapi.csproj.CoreCompileInputs.cache
+C:\Dev\Pivotal\bootcamp-webapi\obj\Debug\netcoreapp2.0\bootcamp-webapi.AssemblyInfoInputs.cache
+C:\Dev\Pivotal\bootcamp-webapi\obj\Debug\netcoreapp2.0\bootcamp-webapi.AssemblyInfo.cs
+C:\Dev\Pivotal\bootcamp-webapi\obj\Debug\netcoreapp2.0\bootcamp-webapi.dll
+C:\Dev\Pivotal\bootcamp-webapi\obj\Debug\netcoreapp2.0\bootcamp-webapi.pdb

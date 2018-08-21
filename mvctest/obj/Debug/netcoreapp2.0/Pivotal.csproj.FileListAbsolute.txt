@@ -1,0 +1,11 @@
+C:\Dev\Pivotal\mvctest\bin\Debug\netcoreapp2.0\Pivotal.deps.json
+C:\Dev\Pivotal\mvctest\bin\Debug\netcoreapp2.0\Pivotal.runtimeconfig.json
+C:\Dev\Pivotal\mvctest\bin\Debug\netcoreapp2.0\Pivotal.runtimeconfig.dev.json
+C:\Dev\Pivotal\mvctest\bin\Debug\netcoreapp2.0\Pivotal.dll
+C:\Dev\Pivotal\mvctest\bin\Debug\netcoreapp2.0\Pivotal.pdb
+C:\Dev\Pivotal\mvctest\obj\Debug\netcoreapp2.0\Pivotal.csprojAssemblyReference.cache
+C:\Dev\Pivotal\mvctest\obj\Debug\netcoreapp2.0\Pivotal.csproj.CoreCompileInputs.cache
+C:\Dev\Pivotal\mvctest\obj\Debug\netcoreapp2.0\Pivotal.AssemblyInfoInputs.cache
+C:\Dev\Pivotal\mvctest\obj\Debug\netcoreapp2.0\Pivotal.AssemblyInfo.cs
+C:\Dev\Pivotal\mvctest\obj\Debug\netcoreapp2.0\Pivotal.dll
+C:\Dev\Pivotal\mvctest\obj\Debug\netcoreapp2.0\Pivotal.pdb

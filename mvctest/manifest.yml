@@ -1,0 +1,6 @@
+---
+applications:
+- name: core-cf-federicor
+  buidpack: https://github.com/cloudfoundry/dotnet-core-buildpack#v2.0.7
+  instances: 1
+  memory: 256M
